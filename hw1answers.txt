@@ -1,4 +1,4 @@
-Linus Commands:
+Linux Commands:
 
 - Install Default Packages: sudo unminimize
 - Entering Google Cloud VM: ssh cjohnson813@34.16.39.19
