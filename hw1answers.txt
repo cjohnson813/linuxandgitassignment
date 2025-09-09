@@ -1,0 +1,26 @@
+Linus Commands:
+
+- Install Default Packages: sudo unminimize
+- Entering Google Cloud VM: ssh cjohnson813@34.16.39.19
+- Creating a new directory: mkdir <directory_name>
+- Change to existing directory: cd <directory_name>
+- Check which directly currently entered: pwd
+- ls: List files in currently selected directory
+(-ltr): list one file per line, sort by newest, reverse order
+- cd .. : Exit current directory and reference one directory up
+- cat <html.file>: Check contents (code/txt) of the requested file
+(Pico Commands)
+- pico -l <html.file> : Edit selected file *with line numbers*
+- pico hw1answers.txt: Create this file to answer the questions
+
+Git Commands:
+
+- Offering credentials to acknowledge my GitHub account:
+git config --global user.email "camjohnson228@gmail.com"
+git config --global user.name "cjohnson813"
+- Clone Repository for Homework 1
+git clone  https://...   <URL copied from CSC330master/linuxandgit>
+- git status: Check status of local repository, displays files that include modifications
+- git add <html.file> : adds a file to the queue to be committed following modifications
+- git commit -m "name commit" : commit changes added and add a message to describe commit
+- git push <URL> : push the committed changes into the local repository specified in the URL
